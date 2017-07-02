@@ -1,0 +1,7 @@
+{
+    "name": "React Node Company List App",
+    "description": "App with React and Node.js Company List",
+    "repository": "https://github.com/shree214ram/companyListReactNodeJsApp",
+    "logo": "",
+    "keywords": ["node", "express", "react", "company list"]
+}
