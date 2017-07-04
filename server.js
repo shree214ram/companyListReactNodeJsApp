@@ -18,6 +18,9 @@ app.get('/companies', companies.findAll);
 //Routing if url like http://localhost:5000/#companies/3  then companies findById function will call
 app.get('/companies/:id', companies.findById);
 
+app.get('/companies_bid/:id', companies.findByBusinessId);
+
+
 app.set('port', process.env.PORT || 5000);
 
 app.listen(app.get('port'), function () {
